@@ -1,0 +1,1 @@
+<p> The user <b>{{ $user }}</b> has made a comment on your publication </p>
