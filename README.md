@@ -1,3 +1,33 @@
+## Getting Started
+
+- Descargar Repo.
+
+```
+cd laraTest
+
+```
+- Montar los contenedores:
+
+```
+./vendor/bin/sail up 
+```
+
+- Entrar al contenedor Sail-8.0:
+
+```
+docker exec -it (ID contenedor sail-8.0) bash
+```
+
+- Correr las migraciones:
+```
+php artisan migrate
+```
+
+- Correr los test:
+```
+php artisan test
+```
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
