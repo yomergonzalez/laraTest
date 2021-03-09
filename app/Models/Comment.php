@@ -12,7 +12,7 @@ class Comment extends Model
     Protected $fillable = ['publication_id', 'content', 'user_id'];
 
     protected $attributes = [
-        'status' => 'AUTORIZADO',
+        'status' => 'APROBADO',
     ];
 
     /**
